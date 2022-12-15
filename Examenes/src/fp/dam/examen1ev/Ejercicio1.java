@@ -19,7 +19,7 @@ public class Ejercicio1 {
 	}
 	
 	static boolean getLike(long randLong) {
-		char[] nums = String.valueOf(randLong).toCharArray(); //TODO ITS CHAR
+		char[] nums = String.valueOf(randLong).toCharArray();
 		int pair=0;
 		int odd=0;
 		for (int i=0; i<nums.length; i++) {
